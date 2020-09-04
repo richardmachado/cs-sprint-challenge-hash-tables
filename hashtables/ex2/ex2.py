@@ -6,7 +6,7 @@ class Ticket:
 
         # starting location is the key and
         # the destination is the value
-
+    #! a __str__ is readable, a _repr is ambiguous
     def __repr__(self):
         return f'source: {self.source}, destination: {self.destination}'
 
